@@ -1,0 +1,248 @@
+2024-04-30 19:21:45,796 - WARNING -  * Debugger is active!
+2024-04-30 19:21:45,798 - INFO -  * Debugger PIN: 323-392-861
+2024-04-30 19:22:17,118 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-30 19:22:17,119 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-30 19:22:17,119 - INFO -  * Restarting with stat
+2024-04-30 19:22:17,898 - WARNING -  * Debugger is active!
+2024-04-30 19:22:17,900 - INFO -  * Debugger PIN: 323-392-861
+2024-04-30 19:22:45,451 - INFO - 127.0.0.1 - - [30/Apr/2024 19:22:45] "GET / HTTP/1.1" 200 -
+2024-04-30 19:22:50,651 - INFO - 127.0.0.1 - - [30/Apr/2024 19:22:50] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2024-04-30 19:25:19,259 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-30 19:25:19,259 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-30 19:25:19,260 - INFO -  * Restarting with stat
+2024-04-30 19:25:19,953 - WARNING -  * Debugger is active!
+2024-04-30 19:25:19,955 - INFO -  * Debugger PIN: 323-392-861
+2024-04-30 19:25:34,972 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-30 19:25:34,972 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-30 19:25:34,973 - INFO -  * Restarting with stat
+2024-04-30 19:25:35,676 - WARNING -  * Debugger is active!
+2024-04-30 19:25:35,677 - INFO -  * Debugger PIN: 323-392-861
+2024-04-30 19:28:59,037 - INFO -  * Detected change in 'c:\\Users\\User\\OneDrive\\Desktop\\DS\\app.py', reloading
+2024-04-30 19:28:59,145 - INFO -  * Restarting with stat
+2024-04-30 19:29:24,226 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-30 19:29:24,226 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-30 19:30:13,725 - INFO - 127.0.0.1 - - [30/Apr/2024 19:30:13] "GET / HTTP/1.1" 200 -
+2024-04-30 19:30:13,795 - INFO - 127.0.0.1 - - [30/Apr/2024 19:30:13] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-04-30 19:30:20,264 - INFO - Request method: POST
+2024-04-30 19:30:20,268 - INFO - 127.0.0.1 - - [30/Apr/2024 19:30:20] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:30:25,867 - INFO - Request method: POST
+2024-04-30 19:30:25,869 - INFO - 127.0.0.1 - - [30/Apr/2024 19:30:25] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:30:32,665 - INFO - Request method: POST
+2024-04-30 19:30:32,667 - INFO - 127.0.0.1 - - [30/Apr/2024 19:30:32] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:32:18,604 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-30 19:32:18,604 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-30 19:32:25,978 - INFO - Request method: POST
+2024-04-30 19:32:25,986 - INFO - 127.0.0.1 - - [30/Apr/2024 19:32:25] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:33:37,841 - INFO - Request method: POST
+2024-04-30 19:33:37,842 - INFO - 127.0.0.1 - - [30/Apr/2024 19:33:37] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:33:53,923 - INFO - Request method: POST
+2024-04-30 19:33:53,925 - INFO - 127.0.0.1 - - [30/Apr/2024 19:33:53] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:34:52,047 - INFO - Request method: POST
+2024-04-30 19:34:52,048 - INFO - 127.0.0.1 - - [30/Apr/2024 19:34:52] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:44:10,388 - INFO - Request method: POST
+2024-04-30 19:44:10,390 - INFO - 127.0.0.1 - - [30/Apr/2024 19:44:10] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:45:20,006 - INFO - Request method: POST
+2024-04-30 19:45:20,007 - INFO - 127.0.0.1 - - [30/Apr/2024 19:45:20] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:45:54,842 - INFO - Request method: POST
+2024-04-30 19:45:54,842 - ERROR - Error: could not convert string to float: ''
+2024-04-30 19:45:54,849 - INFO - 127.0.0.1 - - [30/Apr/2024 19:45:54] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:46:03,689 - INFO - Request method: POST
+2024-04-30 19:46:03,691 - INFO - 127.0.0.1 - - [30/Apr/2024 19:46:03] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:46:09,998 - INFO - Request method: POST
+2024-04-30 19:46:09,999 - INFO - 127.0.0.1 - - [30/Apr/2024 19:46:09] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:46:41,533 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-30 19:46:41,533 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-30 19:46:41,534 - INFO -  * Restarting with stat
+2024-04-30 19:46:42,213 - WARNING -  * Debugger is active!
+2024-04-30 19:46:42,214 - INFO -  * Debugger PIN: 323-392-861
+2024-04-30 19:46:51,913 - INFO - 127.0.0.1 - - [30/Apr/2024 19:46:51] "GET / HTTP/1.1" 200 -
+2024-04-30 19:47:04,123 - INFO - Request method: POST
+2024-04-30 19:47:04,127 - INFO - 127.0.0.1 - - [30/Apr/2024 19:47:04] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:49:53,213 - INFO - Request method: POST
+2024-04-30 19:49:53,237 - INFO - 127.0.0.1 - - [30/Apr/2024 19:49:53] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:50:18,454 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-30 19:50:18,454 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-30 19:50:18,454 - INFO -  * Restarting with stat
+2024-04-30 19:50:19,183 - WARNING -  * Debugger is active!
+2024-04-30 19:50:19,184 - INFO -  * Debugger PIN: 323-392-861
+2024-04-30 19:50:23,986 - INFO - 127.0.0.1 - - [30/Apr/2024 19:50:23] "GET / HTTP/1.1" 200 -
+2024-04-30 19:50:28,670 - INFO - Request method: POST
+2024-04-30 19:50:28,674 - INFO - 127.0.0.1 - - [30/Apr/2024 19:50:28] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:50:38,949 - INFO - Request method: POST
+2024-04-30 19:50:38,950 - INFO - 127.0.0.1 - - [30/Apr/2024 19:50:38] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:53:32,535 - INFO -  * Detected change in 'c:\\Users\\User\\OneDrive\\Desktop\\DS\\model.py', reloading
+2024-04-30 19:53:32,621 - INFO -  * Restarting with stat
+2024-04-30 19:53:33,458 - WARNING -  * Debugger is active!
+2024-04-30 19:53:33,459 - INFO -  * Debugger PIN: 323-392-861
+2024-04-30 19:53:36,471 - INFO -  * Detected change in 'c:\\Users\\User\\OneDrive\\Desktop\\DS\\model.py', reloading
+2024-04-30 19:53:36,570 - INFO -  * Restarting with stat
+2024-04-30 19:53:37,288 - WARNING -  * Debugger is active!
+2024-04-30 19:53:37,289 - INFO -  * Debugger PIN: 323-392-861
+2024-04-30 19:53:51,334 - INFO -  * Detected change in 'c:\\Users\\User\\OneDrive\\Desktop\\DS\\model.py', reloading
+2024-04-30 19:53:51,456 - INFO -  * Restarting with stat
+2024-04-30 19:53:52,317 - WARNING -  * Debugger is active!
+2024-04-30 19:53:52,318 - INFO -  * Debugger PIN: 323-392-861
+2024-04-30 19:54:37,433 - INFO -  * Detected change in 'c:\\Users\\User\\OneDrive\\Desktop\\DS\\model.py', reloading
+2024-04-30 19:54:37,542 - INFO -  * Restarting with stat
+2024-04-30 19:54:38,251 - WARNING -  * Debugger is active!
+2024-04-30 19:54:38,252 - INFO -  * Debugger PIN: 323-392-861
+2024-04-30 19:54:48,374 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-04-30 19:54:48,375 - INFO - [33mPress CTRL+C to quit[0m
+2024-04-30 19:54:48,376 - INFO -  * Restarting with stat
+2024-04-30 19:54:49,253 - WARNING -  * Debugger is active!
+2024-04-30 19:54:49,255 - INFO -  * Debugger PIN: 323-392-861
+2024-04-30 19:54:52,408 - INFO - Request method: POST
+2024-04-30 19:54:52,413 - INFO - 127.0.0.1 - - [30/Apr/2024 19:54:52] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:54:56,418 - INFO - 127.0.0.1 - - [30/Apr/2024 19:54:56] "GET / HTTP/1.1" 200 -
+2024-04-30 19:55:01,742 - INFO - Request method: POST
+2024-04-30 19:55:01,744 - INFO - 127.0.0.1 - - [30/Apr/2024 19:55:01] "POST /predict HTTP/1.1" 200 -
+2024-04-30 19:55:34,393 - INFO - Request method: POST
+2024-04-30 19:55:34,395 - INFO - 127.0.0.1 - - [30/Apr/2024 19:55:34] "POST /predict HTTP/1.1" 200 -
+2024-05-02 08:50:07,020 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-02 08:50:07,021 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-02 08:50:07,022 - INFO -  * Restarting with stat
+2024-05-02 08:50:07,740 - WARNING -  * Debugger is active!
+2024-05-02 08:50:07,740 - INFO -  * Debugger PIN: 323-392-861
+2024-05-02 08:50:32,772 - INFO - 127.0.0.1 - - [02/May/2024 08:50:32] "GET / HTTP/1.1" 200 -
+2024-05-02 08:50:33,079 - INFO - 127.0.0.1 - - [02/May/2024 08:50:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-02 08:52:31,086 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Desktop\\DS\\app.py', reloading
+2024-05-02 08:52:31,248 - INFO -  * Restarting with stat
+2024-05-02 08:52:32,105 - WARNING -  * Debugger is active!
+2024-05-02 08:52:32,107 - INFO -  * Debugger PIN: 323-392-861
+2024-05-02 08:52:33,119 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Desktop\\DS\\app.py', reloading
+2024-05-02 08:52:33,202 - INFO -  * Restarting with stat
+2024-05-02 08:52:33,928 - WARNING -  * Debugger is active!
+2024-05-02 08:52:33,930 - INFO -  * Debugger PIN: 323-392-861
+2024-05-02 08:52:37,943 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Desktop\\DS\\app.py', reloading
+2024-05-02 08:52:38,062 - INFO -  * Restarting with stat
+2024-05-02 08:52:38,787 - WARNING -  * Debugger is active!
+2024-05-02 08:52:38,788 - INFO -  * Debugger PIN: 323-392-861
+2024-05-02 08:52:40,797 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Desktop\\DS\\app.py', reloading
+2024-05-02 08:52:40,887 - INFO -  * Restarting with stat
+2024-05-02 08:52:41,617 - WARNING -  * Debugger is active!
+2024-05-02 08:52:41,618 - INFO -  * Debugger PIN: 323-392-861
+2024-05-02 08:52:47,634 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Desktop\\DS\\app.py', reloading
+2024-05-02 08:52:47,761 - INFO -  * Restarting with stat
+2024-05-02 08:52:48,492 - WARNING -  * Debugger is active!
+2024-05-02 08:52:48,494 - INFO -  * Debugger PIN: 323-392-861
+2024-05-02 08:52:49,501 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Desktop\\DS\\app.py', reloading
+2024-05-02 08:52:49,584 - INFO -  * Restarting with stat
+2024-05-02 08:52:50,350 - WARNING -  * Debugger is active!
+2024-05-02 08:52:50,352 - INFO -  * Debugger PIN: 323-392-861
+2024-05-02 08:52:57,373 - INFO -  * Detected change in 'C:\\Users\\User\\OneDrive\\Desktop\\DS\\app.py', reloading
+2024-05-02 08:52:57,538 - INFO -  * Restarting with stat
+2024-05-02 08:52:58,506 - WARNING -  * Debugger is active!
+2024-05-02 08:52:58,508 - INFO -  * Debugger PIN: 323-392-861
+2024-05-02 08:53:40,231 - INFO - 127.0.0.1 - - [02/May/2024 08:53:40] "GET / HTTP/1.1" 200 -
+2024-05-02 08:53:47,743 - INFO - 127.0.0.1 - - [02/May/2024 08:53:47] "GET / HTTP/1.1" 200 -
+2024-05-02 08:54:01,320 - INFO - Request method: POST
+2024-05-02 08:54:01,325 - INFO - 127.0.0.1 - - [02/May/2024 08:54:01] "POST /predict HTTP/1.1" 200 -
+2024-05-02 09:27:49,369 - INFO - Request method: POST
+2024-05-02 09:27:49,371 - INFO - 127.0.0.1 - - [02/May/2024 09:27:49] "POST /predict HTTP/1.1" 200 -
+2024-05-02 09:27:55,133 - INFO - 127.0.0.1 - - [02/May/2024 09:27:55] "GET / HTTP/1.1" 200 -
+2024-05-02 09:29:37,798 - INFO - Request method: POST
+2024-05-02 09:29:37,801 - INFO - 127.0.0.1 - - [02/May/2024 09:29:37] "POST /predict HTTP/1.1" 200 -
+2024-05-02 09:30:08,150 - INFO - 127.0.0.1 - - [02/May/2024 09:30:08] "GET / HTTP/1.1" 200 -
+2024-05-02 09:30:49,604 - INFO - Request method: POST
+2024-05-02 09:30:49,607 - INFO - 127.0.0.1 - - [02/May/2024 09:30:49] "POST /predict HTTP/1.1" 200 -
+2024-05-04 11:05:53,036 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-04 11:05:53,037 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-04 11:05:53,038 - INFO -  * Restarting with stat
+2024-05-04 11:05:53,800 - WARNING -  * Debugger is active!
+2024-05-04 11:05:53,802 - INFO -  * Debugger PIN: 323-392-861
+2024-05-04 11:06:41,144 - INFO - 127.0.0.1 - - [04/May/2024 11:06:41] "GET / HTTP/1.1" 200 -
+2024-05-04 11:06:42,009 - INFO - 127.0.0.1 - - [04/May/2024 11:06:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-04 11:06:50,433 - INFO - Request method: POST
+2024-05-04 11:06:50,448 - INFO - 127.0.0.1 - - [04/May/2024 11:06:50] "POST /predict HTTP/1.1" 200 -
+2024-05-04 11:07:00,557 - INFO - Request method: POST
+2024-05-04 11:07:00,557 - ERROR - ValueError: Targeted productivity should be between 0 and 1
+2024-05-04 11:07:00,558 - INFO - 127.0.0.1 - - [04/May/2024 11:07:00] "POST /predict HTTP/1.1" 200 -
+2024-05-04 11:07:20,944 - INFO - Request method: POST
+2024-05-04 11:07:20,946 - INFO - 127.0.0.1 - - [04/May/2024 11:07:20] "POST /predict HTTP/1.1" 200 -
+2024-05-04 11:07:25,891 - INFO - Request method: POST
+2024-05-04 11:07:25,892 - ERROR - ValueError: could not convert string to float: 'a'
+2024-05-04 11:07:25,895 - INFO - 127.0.0.1 - - [04/May/2024 11:07:25] "POST /predict HTTP/1.1" 200 -
+2024-05-04 11:10:05,607 - INFO - Request method: POST
+2024-05-04 11:10:05,634 - INFO - 127.0.0.1 - - [04/May/2024 11:10:05] "POST /predict HTTP/1.1" 200 -
+2024-05-04 11:10:13,291 - INFO - Request method: POST
+2024-05-04 11:10:13,293 - INFO - 127.0.0.1 - - [04/May/2024 11:10:13] "POST /predict HTTP/1.1" 200 -
+2024-05-04 11:11:36,178 - INFO - Request method: POST
+2024-05-04 11:11:36,180 - INFO - 127.0.0.1 - - [04/May/2024 11:11:36] "POST /predict HTTP/1.1" 200 -
+2024-05-04 11:12:10,598 - INFO - Request method: POST
+2024-05-04 11:12:10,600 - INFO - 127.0.0.1 - - [04/May/2024 11:12:10] "POST /predict HTTP/1.1" 200 -
+2024-05-04 11:12:18,442 - INFO - Request method: POST
+2024-05-04 11:12:18,444 - INFO - 127.0.0.1 - - [04/May/2024 11:12:18] "POST /predict HTTP/1.1" 200 -
+2024-05-04 11:40:53,760 - INFO -  * Detected change in 'c:\\Users\\User\\OneDrive\\Desktop\\DS\\app.py', reloading
+2024-05-04 11:40:53,916 - INFO -  * Restarting with stat
+2024-05-04 11:40:54,894 - WARNING -  * Debugger is active!
+2024-05-04 11:40:54,895 - INFO -  * Debugger PIN: 323-392-861
+2024-05-04 11:41:05,942 - INFO -  * Detected change in 'c:\\Users\\User\\OneDrive\\Desktop\\DS\\model.py', reloading
+2024-05-04 11:41:06,045 - INFO -  * Restarting with stat
+2024-05-04 11:41:06,789 - WARNING -  * Debugger is active!
+2024-05-04 11:41:06,791 - INFO -  * Debugger PIN: 323-392-861
+2024-05-04 11:41:20,823 - INFO -  * Detected change in 'c:\\Users\\User\\OneDrive\\Desktop\\DS\\model.py', reloading
+2024-05-04 11:41:20,921 - INFO -  * Restarting with stat
+2024-05-04 11:41:21,625 - WARNING -  * Debugger is active!
+2024-05-04 11:41:21,627 - INFO -  * Debugger PIN: 323-392-861
+2024-05-04 11:41:23,636 - INFO -  * Detected change in 'c:\\Users\\User\\OneDrive\\Desktop\\DS\\model.py', reloading
+2024-05-04 11:41:23,721 - INFO -  * Restarting with stat
+2024-05-04 11:41:24,436 - WARNING -  * Debugger is active!
+2024-05-04 11:41:24,437 - INFO -  * Debugger PIN: 323-392-861
+2024-05-07 03:11:56,311 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-07 03:11:56,311 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-07 03:11:56,313 - INFO -  * Restarting with stat
+2024-05-07 03:11:57,092 - WARNING -  * Debugger is active!
+2024-05-07 03:11:57,095 - INFO -  * Debugger PIN: 323-392-861
+2024-05-07 03:12:22,589 - INFO - 127.0.0.1 - - [07/May/2024 03:12:22] "GET / HTTP/1.1" 200 -
+2024-05-07 03:12:22,684 - INFO - 127.0.0.1 - - [07/May/2024 03:12:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-07 03:13:17,901 - INFO - Request method: POST
+2024-05-07 03:13:17,919 - INFO - 127.0.0.1 - - [07/May/2024 03:13:17] "POST /predict HTTP/1.1" 200 -
+2024-05-07 16:00:58,659 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-07 16:00:58,660 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-07 16:00:58,661 - INFO -  * Restarting with stat
+2024-05-07 16:00:59,435 - WARNING -  * Debugger is active!
+2024-05-07 16:00:59,437 - INFO -  * Debugger PIN: 323-392-861
+2024-05-07 16:01:09,061 - INFO - 127.0.0.1 - - [07/May/2024 16:01:09] "GET / HTTP/1.1" 200 -
+2024-05-07 16:01:09,095 - INFO - 127.0.0.1 - - [07/May/2024 16:01:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-05-07 16:01:16,284 - INFO - Request method: POST
+2024-05-07 16:01:16,286 - ERROR - ValueError: Targeted productivity should be between 0 and 1
+2024-05-07 16:01:16,287 - INFO - 127.0.0.1 - - [07/May/2024 16:01:16] "POST /predict HTTP/1.1" 200 -
+2024-05-07 16:01:24,077 - INFO - Request method: POST
+2024-05-07 16:01:24,081 - INFO - 127.0.0.1 - - [07/May/2024 16:01:24] "POST /predict HTTP/1.1" 200 -
+2024-05-07 16:01:29,733 - INFO - Request method: POST
+2024-05-07 16:01:29,733 - ERROR - ValueError: Targeted productivity should be between 0 and 1
+2024-05-07 16:01:29,733 - INFO - 127.0.0.1 - - [07/May/2024 16:01:29] "POST /predict HTTP/1.1" 200 -
+2024-05-07 16:01:37,052 - INFO - Request method: POST
+2024-05-07 16:01:37,056 - INFO - 127.0.0.1 - - [07/May/2024 16:01:37] "POST /predict HTTP/1.1" 200 -
+2024-05-07 16:01:50,456 - INFO - Request method: POST
+2024-05-07 16:01:50,459 - INFO - 127.0.0.1 - - [07/May/2024 16:01:50] "POST /predict HTTP/1.1" 200 -
+2024-05-07 16:02:13,408 - INFO - Request method: POST
+2024-05-07 16:02:13,410 - INFO - 127.0.0.1 - - [07/May/2024 16:02:13] "POST /predict HTTP/1.1" 200 -
+2024-05-07 16:02:25,640 - INFO - Request method: POST
+2024-05-07 16:02:25,642 - INFO - 127.0.0.1 - - [07/May/2024 16:02:25] "POST /predict HTTP/1.1" 200 -
+2024-05-07 16:02:33,827 - INFO - Request method: POST
+2024-05-07 16:02:33,828 - INFO - 127.0.0.1 - - [07/May/2024 16:02:33] "POST /predict HTTP/1.1" 200 -
+2024-05-07 16:02:43,212 - INFO - Request method: POST
+2024-05-07 16:02:43,214 - INFO - 127.0.0.1 - - [07/May/2024 16:02:43] "POST /predict HTTP/1.1" 200 -
+2024-05-07 16:14:37,993 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-07 16:14:37,993 - INFO - [33mPress CTRL+C to quit[0m
+2024-05-07 16:14:37,994 - INFO -  * Restarting with stat
+2024-05-07 16:14:38,722 - WARNING -  * Debugger is active!
+2024-05-07 16:14:38,724 - INFO -  * Debugger PIN: 323-392-861
+2024-05-07 16:14:38,734 - INFO - 127.0.0.1 - - [07/May/2024 16:14:38] "GET / HTTP/1.1" 200 -
+2024-05-07 16:14:38,833 - INFO - 127.0.0.1 - - [07/May/2024 16:14:38] "[33mGET /business.png HTTP/1.1[0m" 404 -
+2024-05-07 16:14:43,133 - INFO - 127.0.0.1 - - [07/May/2024 16:14:43] "GET / HTTP/1.1" 200 -
+2024-05-07 16:15:02,455 - INFO - 127.0.0.1 - - [07/May/2024 16:15:02] "GET / HTTP/1.1" 200 -

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productivity Prediction</title>
+    <link rel="icon" href="business.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            width: 100%;
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        p {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .excellent {
+            color: green;
+        }
+        .moderate {
+            color: orange;
+        }
+        .poor {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Productivity Prediction</h1>
+    <form id="predictionForm" action="{{url_for('predict')}}" method="post" onsubmit="return validateInputs()">
+        <label for="smv">Enter Targeted Productivity value:</label>
+        <input type="text" id="targeted_productivity" name="targeted_productivity">
+    
+        <label for="wip">Enter SMV value:</label>
+        <input type="text" id="smv" name="smv">
+    
+        <label for="over_time">Enter Over Time value:</label>
+        <input type="text" id="over_time" name="over_time">
+    
+        <label for="incentive">Enter Incentive value:</label>
+        <input type="text" id="incentive" name="incentive">
+    
+        <label for="no_of_workers">Enter No. of Workers value:</label>
+        <input type="text" id="no_of_workers" name="no_of_workers">
+    
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+    <p>Predicted Productivity: <span id="predictedValue">{{ prediction }}</span></p>
+    <script>
+        var prediction = parseFloat(document.getElementById('predictedValue').textContent.trim());
+        var productivityLevel;
+        if (prediction >= 0.7 && prediction <= 1.0) {
+            productivityLevel = "Excellent Productivity";
+            document.getElementById('predictedValue').classList.add('excellent');
+        } else if (prediction >= 0.4 && prediction < 0.7) {
+            productivityLevel = "Moderate Productivity";
+            document.getElementById('predictedValue').classList.add('moderate');
+        } else if (prediction >= 0 && prediction < 0.4) {
+            productivityLevel = "Poor Productivity";
+            document.getElementById('predictedValue').classList.add('poor');
+        }
+        document.getElementById('predictedValue').innerHTML += ' (' + productivityLevel + ')';
+    </script>
+    {% endif %}
+</body>
+<script>
+    function validatePrediction(prediction) {
+        if (prediction < 0 || prediction > 1) {
+            alert("Prediction out of range. Please check your input values.");
+            return false;
+        }
+        return true;
+    }
+
+    function validateInputs() {
+        var smv = document.getElementById('smv').value;
+        var overTime = document.getElementById('over_time').value;
+        var incentive = document.getElementById('incentive').value;
+        var noOfWorkers = document.getElementById('no_of_workers').value;
+
+        if (!smv.replace('.', '', 1).match(/^\d+(\.\d+)?$/) || !overTime.replace('.', '', 1).match(/^\d+(\.\d+)?$/) || !incentive.replace('.', '', 1).match(/^\d+(\.\d+)?$/) || !noOfWorkers.replace('.', '', 1).match(/^\d+(\.\d+)?$/)) {
+            alert("Please enter valid numerical values for SMV, Over Time, Incentive, and Number of Workers.");
+            return false;
+        }
+        return true;
+    }
+</script>
+</html>
